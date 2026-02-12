@@ -9,6 +9,7 @@ jobs:
   sync-branch:
     name: Update v1 branch
     runs-on: ubuntu-latest
+    environment: default
     permissions:
       contents: write
     # Only run on original repository

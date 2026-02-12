@@ -8,6 +8,7 @@ on:
 jobs:
   run:
     runs-on: ubuntu-latest
+    environment: default
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
